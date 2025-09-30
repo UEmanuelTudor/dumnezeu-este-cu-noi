@@ -1,0 +1,7 @@
+@"
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html, body, #root { height: 100%; }
+"@ | Set-Content -Encoding UTF8 src/index.css
